@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Crimson+Text&display=swap');
+
+/*
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Crimson Text', serif;
+*/
+
+*{
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Crimson Text', serif;
+}
+
+/*typography*/
+
+h1, h2, h3{
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+h1{
+	font-size:35px;
+}
+
+h2{
+	font-size: 25px;
+}
+
+h3{
+	font-size:20px;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+/* button */
+
+.btn{
+	background:#D79398;
+	color:#4B3425;
+	font-size:18px;
+	display:inline-block;
+	padding:10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border:none;
+}
+
+.btn:hover{
+	background:#4B3425;
+	color:#D79398;
+}
+
+.container{
+	max-width:880px;
+	margin:0 auto;
+	position: relative;
+}
+
+header{
+	position: relative;
+	background:#4B3425;
+}
+
+#logo{
+	font-family: 'Cinzel Decorative', cursive;
+	text-decoration: none;
+	color:#E4C5B0;
+	display: inline-block;
+	padding:10px 10px 10px 0px;
+}
+
+nav{
+	position:absolute;
+	right:0px;
+	top:15px;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav li{
+	display:inline-block;
+}
+
+nav a{
+	color:#E4C5B0;
+	font-size:28px;
+	display: inline-block;
+	padding:0 10px;
+	text-decoration: none;
+}
+
+.fc{
+	display:flex;
+}
+
+
+
+
+
+
+
+
+
+
